@@ -31,4 +31,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
-# gem 'capistrano-ra
+# gem 'capistrano-rails', group: :development
+
+# Reduces boot times t
