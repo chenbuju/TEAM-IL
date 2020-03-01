@@ -42,4 +42,4 @@ group :development, :test do
 end
 
 group :development do
-  #
+  # Access an interactive console on exception pages or
