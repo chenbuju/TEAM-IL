@@ -50,4 +50,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :t
+group :test do
+  # Adds support for Capybara system testing a
