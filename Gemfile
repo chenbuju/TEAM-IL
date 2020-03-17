@@ -68,4 +68,4 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
-gem 'devise', '~> 4.7', '>
+gem 'devise', '~> 4.7', '>= 4.7.1'
