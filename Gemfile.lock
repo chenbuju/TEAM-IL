@@ -4,4 +4,5 @@ GEM
     actioncable (5.2.4.1)
       actionpack (= 5.2.4.1)
       nio4r (~> 2.0)
-      websoc
+      websocket-driver (>= 0.6.1)
+    actionmailer (5.2.4
