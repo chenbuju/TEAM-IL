@@ -22,4 +22,5 @@ GEM
       activesupport (= 5.2.4.1)
       builder (~> 3.1)
       erubi (~> 1.4)
-      rails-dom-te
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 
