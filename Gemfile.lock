@@ -25,4 +25,5 @@ GEM
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
     activejob (5.2.4.1)
-      active
+      activesupport (= 5.2.4.1)
+      globalid (>= 0.3.6)
