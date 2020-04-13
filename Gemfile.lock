@@ -31,4 +31,6 @@ GEM
       activesupport (= 5.2.4.1)
     activerecord (5.2.4.1)
       activemodel (= 5.2.4.1)
-      activesupport (
+      activesupport (= 5.2.4.1)
+      arel (>= 9.0)
+    activestorage (5.2.4.
