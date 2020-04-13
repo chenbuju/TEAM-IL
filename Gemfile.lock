@@ -30,4 +30,5 @@ GEM
     activemodel (5.2.4.1)
       activesupport (= 5.2.4.1)
     activerecord (5.2.4.1)
-      activ
+      activemodel (= 5.2.4.1)
+      activesupport (
