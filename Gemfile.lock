@@ -37,4 +37,5 @@ GEM
       actionpack (= 5.2.4.1)
       activerecord (= 5.2.4.1)
       marcel (~> 0.3.1)
-    activesuppo
+    activesupport (5.2.4.1)
+      concurrent-ruby (~> 
