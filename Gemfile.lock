@@ -47,4 +47,6 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
-    au
+    autoprefixer-rails (9.7.3)
+      execjs
+   
