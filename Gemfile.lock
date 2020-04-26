@@ -49,4 +49,6 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (9.7.3)
       execjs
-   
+    bcrypt (3.1.13)
+    bindex (0.8.1)
+    bootsnap 
