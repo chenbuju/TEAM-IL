@@ -53,4 +53,5 @@ GEM
     bindex (0.8.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
-    bootstrap-sas
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5
