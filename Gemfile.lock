@@ -65,4 +65,6 @@ GEM
       rack (>= 1.6.0)
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
-      xpath
+      xpath (~> 3.2)
+    childprocess (3.0.0)
+    chromedriver-help
