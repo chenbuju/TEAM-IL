@@ -71,4 +71,6 @@ GEM
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
     coffee-rails (4.2.2)
-      coffee-s
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0)
+  
