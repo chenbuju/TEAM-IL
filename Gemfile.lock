@@ -82,4 +82,7 @@ GEM
     devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railt
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+    
