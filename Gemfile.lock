@@ -123,4 +123,6 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
-    orm_adapte
+    orm_adapter (0.5.0)
+    pg (1.2.2)
+    public_suffix (4.0.3)
