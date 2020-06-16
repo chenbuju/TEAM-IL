@@ -132,4 +132,5 @@ GEM
       rack (>= 1.0, < 3)
     rails (5.2.4.1)
       actioncable (= 5.2.4.1)
-      
+      actionmailer (= 5.2.4.1)
+      actionpack (= 5
