@@ -135,4 +135,6 @@ GEM
       actionmailer (= 5.2.4.1)
       actionpack (= 5.2.4.1)
       actionview (= 5.2.4.1)
-      acti
+      activejob (= 5.2.4.1)
+      activemodel (= 5.2.4.1)
+ 
