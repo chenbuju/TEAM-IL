@@ -137,4 +137,5 @@ GEM
       actionview (= 5.2.4.1)
       activejob (= 5.2.4.1)
       activemodel (= 5.2.4.1)
- 
+      activerecord (= 5.2.4.1)
+      activestorage
