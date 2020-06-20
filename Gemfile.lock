@@ -143,4 +143,6 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.2.4.1)
       sprockets-rails (>= 2.0.0)
-    rails-dom-testing (2
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri
