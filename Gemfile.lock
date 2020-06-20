@@ -138,4 +138,6 @@ GEM
       activejob (= 5.2.4.1)
       activemodel (= 5.2.4.1)
       activerecord (= 5.2.4.1)
-      activestorage
+      activestorage (= 5.2.4.1)
+      activesupport (= 5.2.4.1)
+  
