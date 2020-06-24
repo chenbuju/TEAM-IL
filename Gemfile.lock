@@ -150,4 +150,5 @@ GEM
       loofah (~> 2.3)
     rails_12factor (0.0.3)
       rails_serve_static_assets
-      rails_s
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
