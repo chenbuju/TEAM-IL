@@ -153,4 +153,5 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
-    railties
+    railties (5.2.4.1)
+      actionpack (= 5.2.4.1
