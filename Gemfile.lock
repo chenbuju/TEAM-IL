@@ -156,4 +156,6 @@ GEM
     railties (5.2.4.1)
       actionpack (= 5.2.4.1)
       activesupport (= 5.2.4.1)
-      method_sour
+      method_source
+      rake (>= 0.8.7)
+      thor (>
