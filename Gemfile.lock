@@ -171,4 +171,5 @@ GEM
     rubyzip (2.0.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
-    sass-l
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >=
