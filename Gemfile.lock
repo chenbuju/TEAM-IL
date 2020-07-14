@@ -196,4 +196,6 @@ GEM
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
     sprockets (3.7.2)
-   
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+  
