@@ -201,4 +201,7 @@ GEM
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
-      sprockets (
+      sprockets (>= 3.0.0)
+    thor (1.0.1)
+    thread_safe (0.3.6)
+    t
