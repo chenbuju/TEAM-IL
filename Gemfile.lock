@@ -204,4 +204,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.0.1)
     thread_safe (0.3.6)
-    t
+    tilt (2.0.10)
+    turbolinks (5.2.1)
+    
