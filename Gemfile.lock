@@ -214,4 +214,5 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.8)
       rack (>= 2.0.6)
-   
+    web-console (3.7.0)
+      actionview (>= 5
