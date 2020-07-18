@@ -211,4 +211,7 @@ GEM
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
-      execjs (>= 0.3
+      execjs (>= 0.3.0, < 3)
+    warden (1.2.8)
+      rack (>= 2.0.6)
+   
