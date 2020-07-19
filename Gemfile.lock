@@ -217,4 +217,6 @@ GEM
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
-      bindex (>= 0
+      bindex (>= 0.4.0)
+      railties (>= 5.0)
+    websocket-driver (0.7.1)
