@@ -234,4 +234,6 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   chromedriver-helper
-  coffee-rails (~>
+  coffee-rails (~> 4.2)
+  devise (~> 4.7, >= 4.7.1)
+  d
