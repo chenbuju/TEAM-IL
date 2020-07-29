@@ -233,3 +233,5 @@ DEPENDENCIES
   bootstrap-sass (~> 3.4.1)
   byebug
   capybara (>= 2.15)
+  chromedriver-helper
+  coffee-rails (~>
