@@ -236,4 +236,6 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise (~> 4.7, >= 4.7.1)
-  d
+  dotenv-rails (~> 2.7, >= 2.7.5)
+  jbuilder (~> 2.5)
+  jq
