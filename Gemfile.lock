@@ -246,4 +246,6 @@ DEPENDENCIES
   rails_12factor (~> 0.0.3)
   sass-rails (~> 5.0)
   sassc-rails (>= 2.1.0)
-  seleni
+  selenium-webdriver
+  spring
+  spring-watcher-liste
