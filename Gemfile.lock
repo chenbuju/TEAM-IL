@@ -244,4 +244,6 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.1)
   rails_12factor (~> 0.0.3)
-  sass-
+  sass-rails (~> 5.0)
+  sassc-rails (>= 2.1.0)
+  seleni
