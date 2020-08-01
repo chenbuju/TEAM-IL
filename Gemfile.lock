@@ -248,4 +248,7 @@ DEPENDENCIES
   sassc-rails (>= 2.1.0)
   selenium-webdriver
   spring
-  spring-watcher-liste
+  spring-watcher-listen (~> 2.0.0)
+  turbolinks (~> 5)
+  tzinfo-data
+  u
