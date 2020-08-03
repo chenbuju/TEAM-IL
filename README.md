@@ -1,4 +1,8 @@
 # README
 
 This README would normally document whatever steps are necessary to get the
-application
+application up and running.
+
+Things you may want to cover:
+
+* Rub
