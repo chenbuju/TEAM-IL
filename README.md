@@ -11,4 +11,8 @@ Things you may want to cover:
 
 * Configuration
 
-* Database cre
+* Database creation
+
+* Database initialization
+
+* How to run the 
