@@ -1,1 +1,2 @@
-# Add your own tasks in files p
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# 
