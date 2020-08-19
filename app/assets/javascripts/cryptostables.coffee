@@ -1,1 +1,2 @@
-# Place all the behaviors and hooks related to the matching controller her
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically b
