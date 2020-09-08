@@ -1,0 +1,1 @@
+class CryptostablesController < Applic
