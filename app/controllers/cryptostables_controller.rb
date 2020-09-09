@@ -1,1 +1,2 @@
-class CryptostablesController < Applic
+class CryptostablesController < ApplicationController
+  before_action :set_cryptostable,
