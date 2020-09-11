@@ -6,4 +6,7 @@ class CryptostablesController < ApplicationController
   # GET /cryptostables
   # GET /cryptostables.json
   def index
-    @cryp
+    @cryptostables = Cryptostable.all
+
+    require 'uri'
+ 
