@@ -4,4 +4,6 @@ class CryptostablesController < ApplicationController
   before_action :correct_user, only: [:edit, :update, :destroy, :show]
 
   # GET /cryptostables
-  # GET /cr
+  # GET /cryptostables.json
+  def index
+    @cryp
