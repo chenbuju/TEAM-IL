@@ -9,4 +9,6 @@ class CryptostablesController < ApplicationController
     @cryptostables = Cryptostable.all
 
     require 'uri'
- 
+    require 'net/http'
+    require 'openssl'
+
