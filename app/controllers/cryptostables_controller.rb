@@ -12,3 +12,4 @@ class CryptostablesController < ApplicationController
     require 'net/http'
     require 'openssl'
 
+    @url = "https://pro-api.coinmarketcap.com/v1/
