@@ -19,4 +19,9 @@ class CryptostablesController < ApplicationController
     @profit_loss = 0
   end
 
-  # GET /cryptosta
+  # GET /cryptostables/1
+  # GET /cryptostables/1.json
+  def show
+  end
+
+ 
