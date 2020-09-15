@@ -14,4 +14,5 @@ class CryptostablesController < ApplicationController
 
     @url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=#{ENV.fetch('CRYPTO')}&start=1&limit=500"
     @uri = URI(@url)
-    @response = Net::HTTP.get(@u
+    @response = Net::HTTP.get(@uri)
+    @lookup_cryptos = JSON.parse(@response)
