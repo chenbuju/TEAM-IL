@@ -24,4 +24,6 @@ class CryptostablesController < ApplicationController
   def show
   end
 
- 
+  # GET /cryptostables/new
+  def new
+    @cryptostable = Cr
