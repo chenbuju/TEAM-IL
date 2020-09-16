@@ -26,4 +26,7 @@ class CryptostablesController < ApplicationController
 
   # GET /cryptostables/new
   def new
-    @cryptostable = Cr
+    @cryptostable = Cryptostable.new
+  end
+
+  # GET /crypt
