@@ -29,4 +29,8 @@ class CryptostablesController < ApplicationController
     @cryptostable = Cryptostable.new
   end
 
-  # GET /crypt
+  # GET /cryptostables/1/edit
+  def edit
+  end
+
+  # POST /
