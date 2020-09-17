@@ -33,4 +33,7 @@ class CryptostablesController < ApplicationController
   def edit
   end
 
-  # POST /
+  # POST /cryptostables
+  # POST /cryptostables.json
+  def create
+  
