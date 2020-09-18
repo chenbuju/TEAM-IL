@@ -36,4 +36,7 @@ class CryptostablesController < ApplicationController
   # POST /cryptostables
   # POST /cryptostables.json
   def create
-    @cryptostable = Cryptostable.new(cryptostab
+    @cryptostable = Cryptostable.new(cryptostable_params)
+
+    respond_to do |format|
+    
