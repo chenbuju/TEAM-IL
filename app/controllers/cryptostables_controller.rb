@@ -39,4 +39,5 @@ class CryptostablesController < ApplicationController
     @cryptostable = Cryptostable.new(cryptostable_params)
 
     respond_to do |format|
-    
+      if @cryptostable.save
+        format.html
