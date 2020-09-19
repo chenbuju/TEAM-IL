@@ -40,4 +40,5 @@ class CryptostablesController < ApplicationController
 
     respond_to do |format|
       if @cryptostable.save
-        format.html { redirect_to @cryptostable, notice: 'Cryptostable 
+        format.html { redirect_to @cryptostable, notice: 'Cryptostable was successfully created.' }
+        format.json { ren
