@@ -43,4 +43,5 @@ class CryptostablesController < ApplicationController
         format.html { redirect_to @cryptostable, notice: 'Cryptostable was successfully created.' }
         format.json { render :show, status: :created, location: @cryptostable }
       else
-        format.html { 
+        format.html { render :new }
+        format.json { render j
