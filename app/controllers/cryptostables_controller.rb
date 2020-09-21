@@ -49,4 +49,6 @@ class CryptostablesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /cryptost
+  # PATCH/PUT /cryptostables/1
+  # PATCH/PUT /cryptostables/1.json
+  de
