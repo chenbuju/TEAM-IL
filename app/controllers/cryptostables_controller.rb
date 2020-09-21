@@ -44,4 +44,9 @@ class CryptostablesController < ApplicationController
         format.json { render :show, status: :created, location: @cryptostable }
       else
         format.html { render :new }
-        format.json { render json: @cryptostable.errors, status: :unproces
+        format.json { render json: @cryptostable.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/PUT /cryptost
