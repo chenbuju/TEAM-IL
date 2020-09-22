@@ -53,4 +53,5 @@ class CryptostablesController < ApplicationController
   # PATCH/PUT /cryptostables/1.json
   def update
     respond_to do |format|
-      if @cry
+      if @cryptostable.update(cryptostable_params)
+   
