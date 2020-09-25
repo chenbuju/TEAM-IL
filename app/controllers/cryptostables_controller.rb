@@ -55,4 +55,6 @@ class CryptostablesController < ApplicationController
     respond_to do |format|
       if @cryptostable.update(cryptostable_params)
         format.html { redirect_to @cryptostable, notice: 'Cryptostable was successfully updated.' }
-        format.json { render :show, status: :ok, 
+        format.json { render :show, status: :ok, location: @cryptostable }
+      else
+        form
