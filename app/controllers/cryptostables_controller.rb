@@ -54,4 +54,4 @@ class CryptostablesController < ApplicationController
   def update
     respond_to do |format|
       if @cryptostable.update(cryptostable_params)
-        format.html { redirect_to @cryptostable, notice:
+        format.html { redirect_to @cryptostable, notice: 'Cryptostable was successfully updated
