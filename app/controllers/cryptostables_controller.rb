@@ -58,4 +58,4 @@ class CryptostablesController < ApplicationController
         format.json { render :show, status: :ok, location: @cryptostable }
       else
         format.html { render :edit }
-        format.json { re
+        format.json { render json: @cryptostable.errors, status: :unprocess
