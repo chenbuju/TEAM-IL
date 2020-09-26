@@ -57,4 +57,5 @@ class CryptostablesController < ApplicationController
         format.html { redirect_to @cryptostable, notice: 'Cryptostable was successfully updated.' }
         format.json { render :show, status: :ok, location: @cryptostable }
       else
-        form
+        format.html { render :edit }
+        format.json { re
