@@ -64,4 +64,6 @@ class CryptostablesController < ApplicationController
   end
 
   # DELETE /cryptostables/1
-  # DELETE /cryptostables/1.jso
+  # DELETE /cryptostables/1.json
+  def destroy
+    @crypto
