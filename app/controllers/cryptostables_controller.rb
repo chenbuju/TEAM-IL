@@ -66,4 +66,6 @@ class CryptostablesController < ApplicationController
   # DELETE /cryptostables/1
   # DELETE /cryptostables/1.json
   def destroy
-    @crypto
+    @cryptostable.destroy
+    respond_to do |format|
+      forma
