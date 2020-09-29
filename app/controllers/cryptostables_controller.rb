@@ -62,3 +62,6 @@ class CryptostablesController < ApplicationController
       end
     end
   end
+
+  # DELETE /cryptostables/1
+  # DELETE /cryptostables/1.jso
