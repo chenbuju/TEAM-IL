@@ -68,4 +68,4 @@ class CryptostablesController < ApplicationController
   def destroy
     @cryptostable.destroy
     respond_to do |format|
-      forma
+      format.html { redirect_to cryptostables_url, notice:
