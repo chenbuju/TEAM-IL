@@ -68,4 +68,5 @@ class CryptostablesController < ApplicationController
   def destroy
     @cryptostable.destroy
     respond_to do |format|
-      format.html { redirect_to cryptostables_url, notice:
+      format.html { redirect_to cryptostables_url, notice: 'Cryptostable was successfully destroyed.' }
+  
