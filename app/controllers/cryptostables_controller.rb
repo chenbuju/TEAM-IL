@@ -74,4 +74,4 @@ class CryptostablesController < ApplicationController
   end
 
   private
-   
+    # Use callbacks to share common setup or constraints
