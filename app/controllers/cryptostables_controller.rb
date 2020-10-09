@@ -80,4 +80,5 @@ class CryptostablesController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def cryptostab
+    def cryptostable_params
+      params.require(:cryptostable).permit(:s
