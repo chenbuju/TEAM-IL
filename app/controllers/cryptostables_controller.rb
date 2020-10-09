@@ -79,4 +79,4 @@ class CryptostablesController < ApplicationController
       @cryptostable = Cryptostable.find(params[:id])
     end
 
-    # Ne
+    # Never trust parameters from the scary internet, o
