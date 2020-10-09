@@ -79,4 +79,5 @@ class CryptostablesController < ApplicationController
       @cryptostable = Cryptostable.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, o
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def cryptostab
