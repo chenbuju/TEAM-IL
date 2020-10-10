@@ -83,3 +83,6 @@ class CryptostablesController < ApplicationController
     def cryptostable_params
       params.require(:cryptostable).permit(:symbol, :user_id, :cost_per, :amount_owned)
     end
+
+    def correct_user
+      @correct = current_use
