@@ -86,4 +86,4 @@ class CryptostablesController < ApplicationController
 
     def correct_user
       @correct = current_user.cryptostables.find_by(id: params[:id])
-      redire
+      redirect_to cryptostables_path, notice: "Not authorized t
