@@ -85,4 +85,5 @@ class CryptostablesController < ApplicationController
     end
 
     def correct_user
-      @correct = current_use
+      @correct = current_user.cryptostables.find_by(id: params[:id])
+      redire
