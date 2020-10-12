@@ -1,1 +1,1 @@
-class Hom
+class HomeController < ApplicationController
