@@ -4,4 +4,4 @@ class HomeController < ApplicationController
     require 'net/http'
     require 'openssl'
 
-    @url = "https://pro-api.c
+    @url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listing
