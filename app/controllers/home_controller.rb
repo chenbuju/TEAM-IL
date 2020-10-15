@@ -7,4 +7,5 @@ class HomeController < ApplicationController
     @url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=#{ENV.fetch('CRYPTO')}&start=1&limit=500"
     @uri = URI(@url)
     @response = Net::HTTP.get(@uri)
-    @coins = JSON.
+    @coins = JSON.parse(@response)
+    @my_coins = ["BTC", "XRP",
