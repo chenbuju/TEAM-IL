@@ -20,4 +20,4 @@ class HomeController < ApplicationController
     require 'net/http'
     require 'openssl'
 
-    @url = "https://pro-api.coinm
+    @url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO
