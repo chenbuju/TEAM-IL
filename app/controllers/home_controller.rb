@@ -15,4 +15,6 @@ class HomeController < ApplicationController
     
   end
 
-  def lo
+  def lookup
+    require 'uri'
+    require 'net/http
