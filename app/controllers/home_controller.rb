@@ -17,4 +17,7 @@ class HomeController < ApplicationController
 
   def lookup
     require 'uri'
-    require 'net/http
+    require 'net/http'
+    require 'openssl'
+
+    @url = "https://pro-api.coinm
