@@ -27,3 +27,5 @@ class HomeController < ApplicationController
      
     @symbol = params[:sym]
 
+    if @symbol
+      @symbol = @symbol.upcase
