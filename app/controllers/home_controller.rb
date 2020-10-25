@@ -29,3 +29,6 @@ class HomeController < ApplicationController
 
     if @symbol
       @symbol = @symbol.upcase
+
+      if @symbol == ''
+        @symbol = 'Please
