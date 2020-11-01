@@ -31,4 +31,7 @@ class HomeController < ApplicationController
       @symbol = @symbol.upcase
 
       if @symbol == ''
-        @symbol = 'Please
+        @symbol = 'Please provide a currency'
+      end
+    end
+  en
