@@ -34,4 +34,5 @@ class HomeController < ApplicationController
         @symbol = 'Please provide a currency'
       end
     end
-  en
+  end
+end
