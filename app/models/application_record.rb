@@ -1,1 +1,2 @@
-class Applicatio
+class ApplicationRecord < ActiveRecord::Base
+  se
