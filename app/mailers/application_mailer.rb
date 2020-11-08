@@ -1,1 +1,2 @@
-class Applica
+class ApplicationMailer < ActionMailer::Base
+  default fr
