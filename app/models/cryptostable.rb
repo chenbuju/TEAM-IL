@@ -1,1 +1,3 @@
-class Cryptostable < App
+class Cryptostable < ApplicationRecord
+  belongs_to :user
+end
