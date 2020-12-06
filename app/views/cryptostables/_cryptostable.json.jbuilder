@@ -1,1 +1,1 @@
-json.extract! cryptostable, :id, :symbol, :user_i
+json.extract! cryptostable, :id, :symbol, :user_id, :cost_per, :amount_owned, :created_at, :updated
