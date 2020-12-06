@@ -1,1 +1,1 @@
-jso
+json.extract! cryptostable, :id, :symbol, :user_i
