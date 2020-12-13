@@ -1,1 +1,3 @@
-<%= form_with(model: cryptostable, local: true) do |fo
+<%= form_with(model: cryptostable, local: true) do |form| %>
+  <% if cryptostable.errors.any? %>
+    <div id="
