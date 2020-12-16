@@ -1,4 +1,4 @@
 <%= form_with(model: cryptostable, local: true) do |form| %>
   <% if cryptostable.errors.any? %>
     <div id="error_explanation">
-      <h2><%= plural
+      <h2><%= pluralize(cryptostable.errors.count, "error") %> 
