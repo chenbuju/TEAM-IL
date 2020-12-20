@@ -2,3 +2,6 @@
   <% if cryptostable.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(cryptostable.errors.count, "error") %> prohibited this cryptostable from being saved:</h2>
+
+      <ul>
+      <% cryptostable.errors.fu
