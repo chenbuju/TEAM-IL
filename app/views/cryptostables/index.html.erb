@@ -24,4 +24,5 @@
     <% @cryptostables.each do |cryptostable| %>
       <% if cryptostable.user_id == current_user.id %>
       <tr>
-        <% for x i
+        <% for x in @lookup_cryptos["data"] %>
+          <% if 
