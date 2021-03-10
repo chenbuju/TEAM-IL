@@ -25,4 +25,5 @@
       <% if cryptostable.user_id == current_user.id %>
       <tr>
         <% for x in @lookup_cryptos["data"] %>
-          <% if 
+          <% if cryptostable.symbol.upcase == x["symbol"]%>
+          
