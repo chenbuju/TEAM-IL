@@ -27,4 +27,5 @@
         <% for x in @lookup_cryptos["data"] %>
           <% if cryptostable.symbol.upcase == x["symbol"]%>
             <td><%= link_to x["name"], cryptostable %></td>
- 
+            <td>$<%=x["quote"]["USD"]["price"]%></td>
+   
