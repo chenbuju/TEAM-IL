@@ -33,4 +33,5 @@
             <td>$<%=x["quote"]["USD"]["percent_change_7d"]%></td>
             <td><%= x["quote"]["USD"]["price"].to_d * cryptostable.amount_owned%></td>
             <td><%= (x["quote"]["USD"]["price"].to_d * cryptostable.amount_owned) - (cryptostable.cost_per * cryptostable.amount_owned)%></td>
-            <td><%= cryptostable.
+            <td><%= cryptostable.cost_per * cryptostable.amount_owned%></td>
+ 
