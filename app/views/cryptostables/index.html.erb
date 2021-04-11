@@ -36,4 +36,6 @@
             <td><%= cryptostable.cost_per * cryptostable.amount_owned%></td>
             <td><%=x["cmc_rank"]%></td>
             <%@profit_loss += x["quote"]["USD"]["price"].to_d * cryptostable.amount_owned%>
-          <%
+          <%end%>
+        <%end%>
+        <td>$<%= cryptostab
