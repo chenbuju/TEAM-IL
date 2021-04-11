@@ -38,4 +38,5 @@
             <%@profit_loss += x["quote"]["USD"]["price"].to_d * cryptostable.amount_owned%>
           <%end%>
         <%end%>
-        <td>$<%= cryptostab
+        <td>$<%= cryptostable.cost_per %></td>
+        <td><%= cryptostable
