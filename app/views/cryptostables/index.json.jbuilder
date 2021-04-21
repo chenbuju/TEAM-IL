@@ -1,1 +1,1 @@
-json.array! @cryptostables, partial: "cryptostabl
+json.array! @cryptostables, partial: "cryptostables/cryptostable", as: :cryptostable
