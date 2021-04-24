@@ -2,3 +2,25 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Symbol:</strong>
+  <%= @cryptostable.symbol %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @cryptostable.user_id %>
+</p>
+
+<p>
+  <strong>Cost per:</strong>
+  <%= @cryptostable.cost_per %>
+</p>
+
+<p>
+  <strong>Amount owned:</strong>
+  <%= @cryptostable.amount_owned %>
+</p>
+
+<%= link_to 'Edit', edit_cryptostable_path(@cryptostable) %> |
+<%= link_to 'Destroy', @cryptostable, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', cryptostables_path %>
