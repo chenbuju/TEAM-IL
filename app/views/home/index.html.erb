@@ -8,3 +8,4 @@
 <% for x in @coins["data"] %>
   <% for coin in @my_coins%>
     <% if coin == x["symbol"]%>
+      <%=x["name"]%>: $<%=x["quote"]["USD"]["pri
