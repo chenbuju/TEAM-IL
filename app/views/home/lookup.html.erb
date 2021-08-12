@@ -12,4 +12,5 @@
 <%@symbol%>
 
 <%if @symbol%>
-  <% for x in @looku
+  <% for x in @lookup_coins["data"] %>
+      <% if @symbol == x["symb
