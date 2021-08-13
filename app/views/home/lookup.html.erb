@@ -13,4 +13,5 @@
 
 <%if @symbol%>
   <% for x in @lookup_coins["data"] %>
-      <% if @symbol == x["symb
+      <% if @symbol == x["symbol"]%>
+        <%=x["name"]%>: $<%=x["quote
