@@ -15,4 +15,5 @@
   <% for x in @lookup_coins["data"] %>
       <% if @symbol == x["symbol"]%>
         <%=x["name"]%>: $<%=x["quote"]["USD"]["price"]%><br>
-        
+        Rank: <%=x["cmc_rank"]%>
+        <br><br
