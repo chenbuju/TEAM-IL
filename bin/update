@@ -5,4 +5,5 @@ include FileUtils
 # path to your application root.
 APP_ROOT = File.expand_path('..', __dir__)
 
-def system!(*
+def system!(*args)
+  system(*args) || abort("\n== Command #{arg
