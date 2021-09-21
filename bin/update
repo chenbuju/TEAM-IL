@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 require 'fileutils'
-include
+include FileUtils
+
+# path to your application root
