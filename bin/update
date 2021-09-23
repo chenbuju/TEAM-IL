@@ -10,4 +10,4 @@ def system!(*args)
 end
 
 chdir APP_ROOT do
-  # This s
+  # This script is a way to update your develop
