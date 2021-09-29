@@ -18,4 +18,6 @@ chdir APP_ROOT do
   system('bundle check') || system!('bundle install')
 
   # Install JavaScript dependencies if using Yarn
-  # sys
+  # system('bin/yarn')
+
+  puts "\n== Updating database =
