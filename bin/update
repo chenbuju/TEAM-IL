@@ -24,4 +24,6 @@ chdir APP_ROOT do
   system! 'bin/rails db:migrate'
 
   puts "\n== Removing old logs and tempfiles =="
-  syste
+  system! 'bin/rails log:clear tmp:clear'
+
+  puts "\n== 
