@@ -2,4 +2,8 @@ development:
   adapter: async
 
 test:
-  adapter: asyn
+  adapter: async
+
+production:
+  adapter: redis
+  url: <%= ENV.
