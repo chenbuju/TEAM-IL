@@ -1,1 +1,5 @@
-developmen
+development:
+  adapter: async
+
+test:
+  adapter: asyn
