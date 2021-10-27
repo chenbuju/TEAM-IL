@@ -1,3 +1,5 @@
 # PostgreSQL. Versions 9.1 and up are supported.
 #
-# Instal
+# Install the pg driver:
+#   gem install pg
+# On OS X 
