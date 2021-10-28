@@ -2,4 +2,5 @@
 #
 # Install the pg driver:
 #   gem install pg
-# On OS X 
+# On OS X with Homebrew:
+#   gem install pg -- --
