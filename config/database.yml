@@ -16,4 +16,5 @@
 #
 default: &default
   adapter: postgresql
-  encodi
+  encoding: unicode
+  # For details on connection pooling, s
