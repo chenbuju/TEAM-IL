@@ -25,4 +25,5 @@ development:
   <<: *default
   database: crypto_development
 
-  # The specified database role being 
+  # The specified database role being used to connect to postgres.
+  # To create additional 
