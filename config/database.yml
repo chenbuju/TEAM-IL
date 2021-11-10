@@ -26,4 +26,5 @@ development:
   database: crypto_development
 
   # The specified database role being used to connect to postgres.
-  # To create additional 
+  # To create additional roles in postgres see `$ createuser --help`.
+  # When 
