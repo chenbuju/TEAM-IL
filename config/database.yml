@@ -31,4 +31,4 @@ development:
   # the same name as the operating system user that initialized the database.
   #username: crypto
 
-  # The password
+  # The password associated with the postgres role (userna
