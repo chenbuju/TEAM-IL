@@ -44,4 +44,6 @@ development:
   #port: 5432
 
   # Schema search path. The server defaults to $user,public
-  #schema_search_path: myapp,sh
+  #schema_search_path: myapp,sharedapp,public
+
+  # Minimum log levels,
