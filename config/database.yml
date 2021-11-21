@@ -52,4 +52,4 @@ development:
   # Defaults to warning.
   #min_messages: notice
 
-# War
+# Warning: The database defined as "test" will be erased
