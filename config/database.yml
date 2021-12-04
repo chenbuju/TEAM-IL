@@ -79,4 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *defaul
+  <<: *default
+  database: crypto_production
+  username: crypto
+  pass
