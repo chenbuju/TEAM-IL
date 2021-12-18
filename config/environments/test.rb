@@ -18,4 +18,4 @@ Rails.application.configure do
     'Cache-Control' => "public, max-age=#{1.hour.to_i}"
   }
 
-  #
+  # Show full error reports and disable
