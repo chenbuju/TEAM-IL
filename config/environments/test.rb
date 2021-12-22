@@ -28,4 +28,5 @@ Rails.application.configure do
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
 
-  # Store uploaded files on the local file sy
+  # Store uploaded files on the local file system in a temporary directory
+  config.active_storage.serv
