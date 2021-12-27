@@ -1,1 +1,3 @@
-# Be sure to restart your s
+# Be sure to restart your server when you modify this file.
+
+# Version of yo
