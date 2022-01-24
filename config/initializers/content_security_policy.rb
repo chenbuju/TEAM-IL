@@ -16,4 +16,4 @@
 #   # policy.report_uri "/csp-violation-report-endpoint"
 # end
 
-# If you are
+# If you are using UJS then enable automatic nonce gener
