@@ -27,3 +27,5 @@ en:
         subject: "Email Changed"
       password_change:
         subject: "Password Changed"
+    omniauth_callbacks:
+      failure
