@@ -25,4 +25,5 @@ en:
         subject: "Unlock instructions"
       email_changed:
         subject: "Email Changed"
-      p
+      password_change:
+        subject: "Password Changed"
