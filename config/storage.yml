@@ -4,4 +4,6 @@ test:
 
 local:
   service: Disk
-  root: <%= Rails.root.join("stor
+  root: <%= Rails.root.join("storage") %>
+
+# Use rails credentials:edit to set t
