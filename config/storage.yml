@@ -14,4 +14,4 @@ local:
 #   region: us-east-1
 #   bucket: your_own_bucket
 
-# Remember no
+# Remember not to checkin your GCS keyfile to a reposi
