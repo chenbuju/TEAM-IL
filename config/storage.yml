@@ -25,4 +25,4 @@ local:
 # microsoft:
 #   service: AzureStorage
 #   storage_account_name: your_account_name
-#   storage_acces
+#   storage_access_key: <%= Rails.application.credentials.dig(:azu
