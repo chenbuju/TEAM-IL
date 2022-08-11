@@ -30,4 +30,5 @@ local:
 
 # mirror:
 #   service: Mirror
-#
+#   primary: local
+#   mirrors: [ amaz
