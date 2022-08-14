@@ -2,4 +2,5 @@
 
 class DeviseCreateUsers < ActiveRecord::Migration[5.2]
   def change
-    create_tab
+    create_table :users do |t|
+      ## Database authenticat
