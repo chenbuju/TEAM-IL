@@ -21,4 +21,5 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       # t.inet     :current_sign_in_ip
       # t.inet     :last_sign_in_ip
 
-      ## Co
+      ## Confirmable
+      # t.string   :confirmation_tok
