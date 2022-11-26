@@ -28,4 +28,4 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       # t.string   :unconfirmed_email # Only if using reconfirmable
 
       ## Lockable
-      # t.integer  :failed_a
+      # t.integer  :failed_attempts, default: 0, null: false # Only if lock strat
