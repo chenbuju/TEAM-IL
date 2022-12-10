@@ -2,4 +2,4 @@
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
-# Note that thi
+# Note that this schema.rb definition is the authoritative sourc
