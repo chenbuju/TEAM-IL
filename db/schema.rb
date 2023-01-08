@@ -10,4 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(v
+ActiveRecord::Schema.define(version: 2020_01_13_083124) do
+
+  # These are extens
