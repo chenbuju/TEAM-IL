@@ -15,4 +15,5 @@ ActiveRecord::Schema.define(version: 2020_01_13_083124) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cryptostables", force
+  create_table "cryptostables", force: :cascade do |t|
+    t.string "symbol"
