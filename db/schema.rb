@@ -17,3 +17,5 @@ ActiveRecord::Schema.define(version: 2020_01_13_083124) do
 
   create_table "cryptostables", force: :cascade do |t|
     t.string "symbol"
+    t.integer "user_id"
+    t.decimal "cost
