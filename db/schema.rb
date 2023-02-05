@@ -24,3 +24,5 @@ ActiveRecord::Schema.define(version: 2020_01_13_083124) do
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_cryptostables_on_user_id"
   end
+
+  create_table "users", force: :cascade do |t
