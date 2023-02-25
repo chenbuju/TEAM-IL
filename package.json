@@ -1,4 +1,5 @@
 {
   "name": "crypto",
   "private": true,
-  "dependencie
+  "dependencies": {}
+}
