@@ -1,3 +1,4 @@
 require "test_helper"
 
-class App
+class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
+ 
