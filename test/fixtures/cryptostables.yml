@@ -1,1 +1,5 @@
-# Read about fixtures at http://api.rubyonrails.org/clas
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  use
