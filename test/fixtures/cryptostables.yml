@@ -10,4 +10,4 @@ two:
   symbol: MyString
   user_id: 1
   cost_per: 9.99
-  a
+  amount_owned: 9.99
