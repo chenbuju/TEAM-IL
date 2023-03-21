@@ -1,3 +1,5 @@
 require 'test_helper'
 
-class CryptostableTest < ActiveSupport::T
+class CryptostableTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   asse
