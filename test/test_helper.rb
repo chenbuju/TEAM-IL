@@ -1,1 +1,2 @@
-ENV['RAILS_ENV
+ENV['RAILS_ENV'] ||= 'test'
+require_relative '../config/environment
